@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        .hero {
+            background: #f4f4f4;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            margin-bottom: 10px;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section {
+            margin: 40px 0;
+        }
+
+        .services {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 250px;
+            background: #eee;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #ff9800;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #e68900;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Website</h1>
+    <p>Welcome to my GitHub hosted site</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Build Your Dream Website</h1>
+    <p>Simple, clean and responsive design</p>
+    <br>
+    <button>Get Started</button>
+</section>
+
+<div class="container">
+
+    <section id="about" class="section">
+        <h2>About</h2>
+        <p>This is a basic HTML template you can host on GitHub Pages.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Build responsive websites.</p>
+            </div>
+            <div class="card">
+                <h3>Cloud</h3>
+                <p>AWS & DevOps solutions.</p>
+            </div>
+            <div class="card">
+                <h3>Support</h3>
+                <p>24/7 assistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 My Website | Hosted on GitHub Pages</p>
+</footer>
+
+</body>
+</html>
